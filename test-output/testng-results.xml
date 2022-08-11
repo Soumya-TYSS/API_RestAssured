@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Connection successful===]]>
+    </line>
+    <line>
+      <![CDATA[TY_PROJ_1605]]>
+    </line>
+    <line>
+      <![CDATA[======Connection closed====]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9482" started-at="2022-08-11T11:07:51 IST" finished-at="2022-08-11T11:08:00 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9482" started-at="2022-08-11T11:07:51 IST" finished-at="2022-08-11T11:08:00 IST">
+      <class name="EndToEndScenarios.CreateProjectVerifyInDataBase">
+        <test-method status="PASS" signature="bsConfig()[pri:0, instance:EndToEndScenarios.CreateProjectVerifyInDataBase@13c27452]" name="bsConfig" is-config="true" duration-ms="2362" started-at="2022-08-11T11:07:48 IST" finished-at="2022-08-11T11:07:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Connection successful===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method status="PASS" signature="createProjectANdVerifyInDBTest()[pri:0, instance:EndToEndScenarios.CreateProjectVerifyInDataBase@13c27452]" name="createProjectANdVerifyInDBTest" duration-ms="9389" started-at="2022-08-11T11:07:51 IST" finished-at="2022-08-11T11:08:00 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TY_PROJ_1605]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProjectANdVerifyInDBTest -->
+        <test-method status="PASS" signature="asConfig()[pri:0, instance:EndToEndScenarios.CreateProjectVerifyInDataBase@13c27452]" name="asConfig" is-config="true" duration-ms="24" started-at="2022-08-11T11:08:00 IST" finished-at="2022-08-11T11:08:00 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[======Connection closed====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- EndToEndScenarios.CreateProjectVerifyInDataBase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
